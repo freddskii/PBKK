@@ -1,0 +1,15 @@
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\bin\Debug\net10.0\simple_calculator.exe
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\bin\Debug\net10.0\simple_calculator.deps.json
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\bin\Debug\net10.0\simple_calculator.runtimeconfig.json
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\bin\Debug\net10.0\simple_calculator.dll
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\bin\Debug\net10.0\simple_calculator.pdb
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0\simple_calculator.GeneratedMSBuildEditorConfig.editorconfig
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0\simple_calculator.AssemblyInfoInputs.cache
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0\simple_calculator.AssemblyInfo.cs
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0\simple_calculator.csproj.CoreCompileInputs.cache
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0\simple_calculator.sourcelink.json
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0\simple_calculator.dll
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0\refint\simple_calculator.dll
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0\simple_calculator.pdb
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0\simple_calculator.genruntimeconfig.cache
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0\ref\simple_calculator.dll

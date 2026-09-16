@@ -1,0 +1,17 @@
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\bin\Debug\net10.0-windows\CalculatorApp.exe
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\bin\Debug\net10.0-windows\CalculatorApp.deps.json
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\bin\Debug\net10.0-windows\CalculatorApp.runtimeconfig.json
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\bin\Debug\net10.0-windows\CalculatorApp.dll
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\bin\Debug\net10.0-windows\CalculatorApp.pdb
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0-windows\simple_calculator.GeneratedMSBuildEditorConfig.editorconfig
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0-windows\simple_calculator.AssemblyInfoInputs.cache
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0-windows\simple_calculator.AssemblyInfo.cs
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0-windows\simple_calculator.csproj.CoreCompileInputs.cache
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0-windows\simple_calculator.sourcelink.json
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0-windows\CalculatorApp.dll
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0-windows\refint\CalculatorApp.dll
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0-windows\CalculatorApp.pdb
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0-windows\simple_calculator.genruntimeconfig.cache
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0-windows\ref\CalculatorApp.dll
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0-windows\CalculatorApp.Form1.resources
+\\wsl.localhost\Ubuntu\home\freddskii\sem5\PBKK\Week3\simple_calculator\obj\Debug\net10.0-windows\simple_calculator.csproj.GenerateResource.cache
