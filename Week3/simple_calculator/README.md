@@ -129,18 +129,18 @@ Blok `try-catch` berfungsi sebagai mekanisme *exception handling* yang mencegat 
 # Contoh Dokumentasi:
 1. Tampilan awal aplikasi
 
-![Tampilan Awal Aplikasi](https://media.discordapp.net/attachments/1444914467510161450/1551796949169217556/7515E0FD-9E05-43D1-A84F-9859F87C41F3.png?ex=6ab3efc7&is=6ab29e47&hm=c4413df22b0e8591f654eada11546b667db0d9e4dd79acc8cdbb5b85393775e9&=&format=webp&quality=lossless)
+![Tampilan Awal Aplikasi](./img/tampilan_awal.png)
 
 2. Operasi perhitungan
 
-![Penjumlahan](https://media.discordapp.net/attachments/1444914467510161450/1551797054215430237/DDB5810E-9B1D-48BF-B772-A7CDA4A6F621.png?ex=6ab3efe0&is=6ab29e60&hm=a3db6ce2f014d9cfc34cbba749abaf50cbf63a91d1885750682338b3be587512&=&format=webp&quality=lossless)
+![Penjumlahan](./img/penjumlahan.png)
 
-![Pengurangan](https://media.discordapp.net/attachments/1444914467510161450/1551798521605394452/EE9C478F-650F-4D4A-9AB1-38579F01D1A8.png?ex=6ab3f13e&is=6ab29fbe&hm=8c7645f97d0349a9fae3deee4c9e060f60e4666b9048f71d3278718cddf5f1f5&=&format=webp&quality=lossless)
+![Pengurangan](./img/pengurangan.png)
 
-![Perkalian](https://media.discordapp.net/attachments/1444914467510161450/1551798520594436137/EA0FB955-C887-41B4-8EFE-B16B77B51C0F.png?ex=6ab3f13e&is=6ab29fbe&hm=b674ec5f58db8c9599349e638dd7d3a6e1b89b044c159559dad25886139b15b9&=&format=webp&quality=lossless)
+![Perkalian](./img/perkalian.png)
 
-![Pembagian](https://media.discordapp.net/attachments/1444914467510161450/1551798522251182120/E1F0CAF3-31B2-4EBE-8FC3-46CF7C208737.png?ex=6ab3f13e&is=6ab29fbe&hm=fd9d2c2754f7683e527ebfcd4bd0013931be56a6ecd5ba937d392ef5fa1c8c6c&=&format=webp&quality=lossless)
+![Pembagian](./img/pembagian.png)
 
 3. Pembagian dengan 0
 
-![Pembagian dengan 0](https://media.discordapp.net/attachments/1444914467510161450/1551798523207491665/7379F0D6-7A09-4AB0-B7C8-9BB4309A3A96.png?ex=6ab3f13e&is=6ab29fbe&hm=1bc67860fb3ee277304b194ec989edffdec319b11f74bb4aa7343f080f18c1f3&=&format=webp&quality=lossless)
+![Pembagian dengan 0](./img/divide_by_zero.png)
