@@ -1,4 +1,4 @@
-﻿# Praktikum Week 3 PBKK — Simple Calculator
+# Praktikum Week 3 PBKK — Simple Calculator
 
 | Nama | NRP | Mata Kuliah | Kelas | 
 | --- | --- | --- | --- | 
@@ -104,42 +104,43 @@ case "/":
 ## 6. Jawaban Refleksi Mahasiswa
 
 ### 1. Apa fungsi `object sender` pada event handler?
-> **Jawaban:**  
-> Parameter `object sender` merepresentasikan referensi ke objek kontrol yang memicu (*firing*) event tersebut. Karena bertipe umum `object`, kita dapat melakukan *type casting* (misalnya `Button button = (Button)sender;`) untuk mengakses properti spesifik dari kontrol pemanggil, seperti properti `button.Text`. Hal ini memungkinkan kita menggunakan satu metode event handler yang sama untuk banyak kontrol sekaligus.
+**Jawaban:**  
+Parameter `object sender` merepresentasikan referensi ke objek kontrol yang memicu (*firing*) event tersebut. Karena bertipe umum `object`, kita dapat melakukan *type casting* (misalnya `Button button = (Button)sender;`) untuk mengakses properti spesifik dari kontrol pemanggil, seperti properti `button.Text`. Hal ini memungkinkan kita menggunakan satu metode event handler yang sama untuk banyak kontrol sekaligus.
 
 ### 2. Mengapa semua tombol angka dapat memakai satu `NumberButton_Click`?
-> **Jawaban:**  
-> Karena alur logika yang dilakukan oleh setiap tombol angka (0–9) adalah identik: yaitu mengambil karakter angka dari tombol tersebut dan menambahkannya ke `txtDisplay`. Dengan memanfaatkan parameter `(Button)sender`, program secara dinamis mengetahui tombol angka mana yang diklik tanpa harus menuliskan 10 fungsi terpisah (*Don't Repeat Yourself / DRY principle*).
+**Jawaban:**  
+Karena alur logika yang dilakukan oleh setiap tombol angka (0–9) adalah identik: yaitu mengambil karakter angka dari tombol tersebut dan menambahkannya ke `txtDisplay`. Dengan memanfaatkan parameter `(Button)sender`, program secara dinamis mengetahui tombol angka mana yang diklik tanpa harus menuliskan 10 fungsi terpisah (*Don't Repeat Yourself / DRY principle*).
 
 ### 3. Apa perbedaan `firstNumber`, `secondNumber`, dan `result`?
-> **Jawaban:**  
-> - **`firstNumber`**: Menyimpan nilai angka yang pertama kali diketik oleh pengguna sebelum menekan tombol operator (+, −, ×, ÷).
-> - **`secondNumber`**: Menyimpan nilai angka kedua yang diketik setelah operator, yang diambil saat tombol sama dengan (`=`) ditekan.
-> - **`result`**: Menyimpan nilai kalkulasi akhir dari operasi aritmatika antara `firstNumber` dan `secondNumber` untuk kemudian ditampilkan kembali ke pengguna.
+**Jawaban:**  
+- **`firstNumber`**: Menyimpan nilai angka yang pertama kali diketik oleh pengguna sebelum menekan tombol operator (+, −, ×, ÷).
+- **`secondNumber`**: Menyimpan nilai angka kedua yang diketik setelah operator, yang diambil saat tombol sama dengan (`=`) ditekan.
+- **`result`**: Menyimpan nilai kalkulasi akhir dari operasi aritmatika antara `firstNumber` dan `secondNumber` untuk kemudian ditampilkan kembali ke pengguna.
 
 ### 4. Mengapa pembagian dengan nol perlu divalidasi?
-> **Jawaban:**  
-> Secara matematis, pembagian dengan nol tidak terdefinisi (*undefined*). Pada bahasa C# dengan tipe data `double`, `x / 0` tidak melempar runtime exception secara default, melainkan menghasilkan `Infinity` atau `NaN`. Hal ini dapat merusak alur perhitungan selanjutnya. Validasi manual memastikan program mendeteksi operasi tak sah ini dan memberikan umpan balik yang informatif kepada pengguna melalui pesan error yang rapi.
+**Jawaban:**  
+Secara matematis, pembagian dengan nol tidak terdefinisi (*undefined*). Pada bahasa C# dengan tipe data `double`, `x / 0` tidak melempar runtime exception secara default, melainkan menghasilkan `Infinity` atau `NaN`. Hal ini dapat merusak alur perhitungan selanjutnya. Validasi manual memastikan program mendeteksi operasi tak sah ini dan memberikan umpan balik yang informatif kepada pengguna melalui pesan error yang rapi.
 
 ### 5. Bagaimana `try-catch` membantu menjaga aplikasi tetap stabil?
-> **Jawaban:**  
-> Blok `try-catch` berfungsi sebagai mekanisme *exception handling* yang mencegat error tak terduga (seperti kesalahan parsing format teks `FormatException` atau pembagian dengan nol `DivideByZeroException`) sebelum mengakibatkan aplikasi mengalami *crash* (berhenti mendadak). Dengan menangkap exception di blok `catch`, aplikasi dapat menampilkan pesan peringatan yang ramah dan tetap berjalan normal.
+**Jawaban:**  
+Blok `try-catch` berfungsi sebagai mekanisme *exception handling* yang mencegat error tak terduga (seperti kesalahan parsing format teks `FormatException` atau pembagian dengan nol `DivideByZeroException`) sebelum mengakibatkan aplikasi mengalami *crash* (berhenti mendadak). Dengan menangkap exception di blok `catch`, aplikasi dapat menampilkan pesan peringatan yang ramah dan tetap berjalan normal.
 
----
 
-## 7. Panduan Build & Run
+# Contoh Dokumentasi:
+1. Tampilan awal aplikasi
 
-1. Buka terminal di folder project:
-   ```bash
-   cd Week3/simple_calculator
-   ```
+![Tampilan Awal Aplikasi](https://media.discordapp.net/attachments/1444914467510161450/1551796949169217556/7515E0FD-9E05-43D1-A84F-9859F87C41F3.png?ex=6ab3efc7&is=6ab29e47&hm=c4413df22b0e8591f654eada11546b667db0d9e4dd79acc8cdbb5b85393775e9&=&format=webp&quality=lossless)
 
-2. Jalankan build:
-   ```bash
-   dotnet build
-   ```
+2. Operasi perhitungan
 
-3. Jalankan aplikasi:
-   ```bash
-   dotnet run
-   ```
+![Penjumlahan](https://media.discordapp.net/attachments/1444914467510161450/1551797054215430237/DDB5810E-9B1D-48BF-B772-A7CDA4A6F621.png?ex=6ab3efe0&is=6ab29e60&hm=a3db6ce2f014d9cfc34cbba749abaf50cbf63a91d1885750682338b3be587512&=&format=webp&quality=lossless)
+
+![Pengurangan](https://media.discordapp.net/attachments/1444914467510161450/1551798521605394452/EE9C478F-650F-4D4A-9AB1-38579F01D1A8.png?ex=6ab3f13e&is=6ab29fbe&hm=8c7645f97d0349a9fae3deee4c9e060f60e4666b9048f71d3278718cddf5f1f5&=&format=webp&quality=lossless)
+
+![Perkalian](https://media.discordapp.net/attachments/1444914467510161450/1551798520594436137/EA0FB955-C887-41B4-8EFE-B16B77B51C0F.png?ex=6ab3f13e&is=6ab29fbe&hm=b674ec5f58db8c9599349e638dd7d3a6e1b89b044c159559dad25886139b15b9&=&format=webp&quality=lossless)
+
+![Pembagian](https://media.discordapp.net/attachments/1444914467510161450/1551798522251182120/E1F0CAF3-31B2-4EBE-8FC3-46CF7C208737.png?ex=6ab3f13e&is=6ab29fbe&hm=fd9d2c2754f7683e527ebfcd4bd0013931be56a6ecd5ba937d392ef5fa1c8c6c&=&format=webp&quality=lossless)
+
+3. Pembagian dengan 0
+
+![Pembagian dengan 0](https://media.discordapp.net/attachments/1444914467510161450/1551798523207491665/7379F0D6-7A09-4AB0-B7C8-9BB4309A3A96.png?ex=6ab3f13e&is=6ab29fbe&hm=1bc67860fb3ee277304b194ec989edffdec319b11f74bb4aa7343f080f18c1f3&=&format=webp&quality=lossless)
